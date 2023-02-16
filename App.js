@@ -5,8 +5,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      {/* <StatusBar style="auto" /> */}
-      {/* apenas testes para poder subir o projeto */}
     </View>
   );
 }
@@ -19,3 +17,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+function Aviso() {
+  return(
+    <view style={{backgroundColor:'yellow'}}>
+      <Text>Olá, eu sou um aviso</Text>
+    </view>
+  )
+}
